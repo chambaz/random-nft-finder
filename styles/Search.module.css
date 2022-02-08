@@ -1,0 +1,100 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  margin: 0 0 20px;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  max-width: 820px;
+  margin: 20px auto 30px;
+}
+
+.description br {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .description br {
+    display: block;
+  }
+}
+
+.name {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.cardTitle {
+  margin: 20px 0;
+}
+
+.cardImg {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.cardDesc {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cardLink {
+  color: orangered;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+
+.button {
+  background: orangered;
+  border: solid 2px orangered;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  margin: 20px 0;
+}
+
+.button:hover {
+  background: white;
+  color: orangered;
+}
+
+.buttonIcon {
+  margin: 0 10px 0 0;
+  position: relative;
+  transform: translateY(1px);
+}
